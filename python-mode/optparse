@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: optparse
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+${1:parser} = optparse.OptionParser()${4}
+(${2:options}, ${3:args}) = $1.parse_args()
+${0}
