@@ -2,12 +2,9 @@
 # name: doc
 # contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
 # --
-"""
-${1:FileName} -- $2
-
-Donald Ephraim Curtis (dcurtis@milkbox.net)
-
-$3
-
-"""
+'''
+File: `(file-name-nondirectory (or (buffer-file-name) (buffer-name)))`
+Author: $1
+Description: $2
+'''
 $0
