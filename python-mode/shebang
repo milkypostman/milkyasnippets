@@ -3,5 +3,5 @@
 # key: shebang
 # contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
 # --
-#!/usr/bin/python
+#!/usr/bin/env python
 $0
