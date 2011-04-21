@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: common main
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+#!/usr/bin/env python
+
+import optparse
+import networkx as nx
+import logging
+log = logging.getLogger("`(file-name-nondirectory (or (buffer-file-name) (buffer-name)))`")
+
+
+
+def main():
+    '''
+    main function
+    '''
+    parser = optparse.OptionParser()
+    (options, args) = parser.parse_args()
+
+    ${1:if len(args) < ${2:1}:
+        parser.error("Arguments Required: $2")}
+
+    $0
+
+
+
+if __name__ == "__main__":
+    main()

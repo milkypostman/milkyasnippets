@@ -4,7 +4,7 @@
 # --
 '''
 File: `(file-name-nondirectory (or (buffer-file-name) (buffer-name)))`
-Author: $1
-Description: $2
+Author: `user-full-name` <`user-mail-address`>
+Description: ${1:this is a super awesome file}
 '''
 $0
