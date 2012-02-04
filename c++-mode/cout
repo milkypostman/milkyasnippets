@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cout
+# key: cout
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+cout << $1 << endl;
+$0
