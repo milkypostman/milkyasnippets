@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: optparse
+# key: optparse
 # contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
 # --
 ${1:parser} = optparse.OptionParser()$0

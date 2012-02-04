@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: common main
+# key: common main
 # contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --
