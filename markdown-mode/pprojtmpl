@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: Project Grading Template
+# key: pprojtmpl
+# contributor: Donald Curtis <dcurtis@milkbox.net>
+# --
+# ${1:Group}
+
+Functionality: $0
+
+
+
+
+Efficiency:
+
+
+
+
+Code Clarity:
+
+
+
+
+Documentation:
+
+
+
+
