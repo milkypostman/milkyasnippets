@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: argparse
+# key: argparse
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+${1:parser} = argparse.ArgumentParser(description="${2:program}")$0
+${3:args} = $1.parse_args()
+

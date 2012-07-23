@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: argarg
+# key: argarg
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+${1:parser}.add_argument('${2:args}', metavar="${3:arg}", type=${4:unicode}, nargs="+",
+                    help="${5:N/A}")

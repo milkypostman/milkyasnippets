@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: argbool
+# key: argbool
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+${1:parser}.add_argument("-${2:x}", dest="${3:option}", action="store_${4:true}", default=${5:False}, help="${6:N/A}")$7

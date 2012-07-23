@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: argconst
+# key: argconst
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+${1:parser}.add_argument("-${2:x}", dest="${3:option}", action="store_const", cost=${4:True}, default=${5:False}, help="${6:N/A}")$7

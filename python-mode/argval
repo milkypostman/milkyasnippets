@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: argval
+# key: argval
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+${1:parser}.add_argument("-${2:x}", dest="${3:option}", type=${4:int}, default="${5:0}", help="${6:N/A}")$7
