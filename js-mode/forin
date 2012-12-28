@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: forin
+# key: forin
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+for (var ${1:key} in ${2:object}) {
+    var ${3:value} = $2[$1];
+    $0
+}
+

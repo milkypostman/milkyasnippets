@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: for
+# key: for
+# contributor: Donald Ephraim Curtis <dcurtis@milkbox.net>
+# --
+for (var ${1:i}=0; $1 < ${2:object}.${3:length}; $1++) {
+    var ${4:val} = $2[$1];
+    $0
+}
+
